@@ -1,0 +1,182 @@
+{
+    "paths": [
+      {
+        "id": 1,
+        "start_question": "What are you here for?",
+        "questions": [
+          {
+            "id": 1,
+            "question": "What are you here for?",
+            "options": [
+              {
+                "value": "checkup",
+                "label": "Checkup"
+              },
+              {
+                "value": "illness",
+                "label": "Illness"
+              },
+              {
+                "value": "pain",
+                "label": "Pain"
+              },
+              {
+                "value": "other",
+                "label": "Other"
+              }
+            ],
+            "next_question_id": 2
+          },
+          {
+            "id": 2,
+            "question": "How long have you been experiencing symptoms?",
+            "options": [
+              {
+                "value": "less_than_a_week",
+                "label": "Less than a week"
+              },
+              {
+                "value": "1_to_2_weeks",
+                "label": "1 to 2 weeks"
+              },
+              {
+                "value": "2_to_4_weeks",
+                "label": "2 to 4 weeks"
+              },
+              {
+                "value": "longer_than_a_month",
+                "label": "Longer than a month"
+              }
+            ],
+            "next_question_id": 3
+          },
+          {
+            "id": 3,
+            "question": "What is the nature of your symptoms?",
+            "options": [
+              {
+                "value": "fever",
+                "label": "Fever"
+              },
+              {
+                "value": "cough",
+                "label": "Cough"
+              },
+              {
+                "value": "headache",
+                "label": "Headache"
+              },
+              {
+                "value": "body_aches",
+                "label": "Body aches"
+              },
+              {
+                "value": "fatigue",
+                "label": "Fatigue"
+              },
+              {
+                "value": "other",
+                "label": "Other"
+              }
+            ],
+            "next_question_id": 4
+          },
+          {
+            "id": 4,
+            "question": "Are you currently taking any medication?",
+            "options": [
+              {
+                "value": "yes",
+                "label": "Yes"
+              },
+              {
+                "value": "no",
+                "label": "No"
+              }
+            ],
+            "next_question_id": 5
+          },
+          {
+            "id": 5,
+            "question": "Please specify the medication you are currently taking",
+            "options": [],
+            "next_question_id": null
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "start_question": "What are you here for?",
+        "questions": [
+          {
+            "id": 1,
+            "question": "What are you here for?",
+            "options": [
+                {
+                  "value": "checkup",
+                  "label": "Checkup"
+                },
+                {
+                  "value": "illness",
+                  "label": "Illness"
+                },
+                {
+                  "value": "pain",
+                  "label": "Pain"
+                },
+                {
+                  "value": "other",
+                  "label": "Other"
+                }
+              ],
+              "next_question_id": 2
+            },
+            {
+                "id": 3,
+                    "question": "Do you have any allergies?",
+                    "options": ["Yes", "No"],
+                    "next_question_id": 4
+                    },
+                    {
+                    "id": 4,
+                    "question": "Please specify your allergies",
+                    "options": [],
+                    "next_question_id": 5
+                    },
+                    {
+                    "id": 5,
+                    "question": "Please specify the medication you are currently taking",
+                    "options": [],
+                    "next_question_id": 6
+                    },
+                    {
+                    "id": 6,
+                    "question": "Have you had any recent surgeries?",
+                    "options": ["Yes", "No"],
+                    "next_question_id": 7
+                    },
+                    {
+                    "id": 7,
+                    "question": "Please specify the date and type of surgery",
+                    "options": [],
+                    "next_question_id": 8
+                    },
+                    {
+                    "id": 8,
+                    "question": "Do you have a family history of any serious illnesses?",
+                    "options": ["Yes", "No"],
+                    "next_question_id": 9
+                    },
+                    {
+                    "id": 9,
+                    "question": "Please specify any illnesses in your family history",
+                    "options": [],
+                    "next_question_id": null
+                    }
+                ]
+            }
+        ]
+    }
+    
+            
+    
